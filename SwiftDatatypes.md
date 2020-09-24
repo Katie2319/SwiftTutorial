@@ -1,5 +1,7 @@
 Swift Datatypes
 
+[Test out running these datatypes in the HelloWorld2.playground file]
+
 Naming Requirements:
 
 Variables can contain almost any character including Unicode characters. They can not contain whitespace characters, mathematical symbols, arrows, private-use Unicode scalar values or line-and box-drawing characters. Variables also cannot begin with a number, but a number can be contained elsewhere in the name. These restrictions are enforced by the compiler.
