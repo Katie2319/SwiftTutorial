@@ -133,7 +133,7 @@ if num < 5 && num > 20 {
 
 The first if statement, with the ( || ) operator, only checks the first side of the statement, and evaluates that the number is less than 5 and the output will be the print statement. On the other hand, in the ( && ) statement it will not evaluate to be true, so the statement has been evaluated on both sides. 
 
-“[Dangling Else” Problem:]
+["Dangling Else” Problem:]
 
 Swift handles the ‘dangling else’ problem by supplying the use of ‘else ifs’ which allow the if statements to be pseudo- nested. The code will allow you to write more than one ifs statements in a row with only one else. It will follow the flow of control in evaluating each if statement. If the last one is false, then the else statement will be printed. If the last if statement is true, the final else will not be evaluated.  (see end of code for example) 
 
