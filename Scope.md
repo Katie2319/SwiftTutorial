@@ -25,7 +25,7 @@ Globally accessible variables can created by using a struct with format:
 `struct Book {
    static let title: String="Harry Potter"
    static let pageCount: Int = 356
-}``
+}`
 
 In order to then reference these variables the form (Book.title) is used. 
 
