@@ -53,8 +53,8 @@ In Swift, primitive types (Int, String, Boolean etc.) are pass by value along wi
 `print (charListA); //returns 'd' 'o' 'g'`
 `print (charListB); //returns 'u' 'o' 'g'`
 
-These results indicate that Swift handles arrays as pass-by-value. This is because if it were pass-by-reference. The statement charListA=charListB
- Woud indicate that both charListA and charListB point to the same value and changing the value of charListB[0], would cause the same change to happen in charListA. Because this did occur based on the results, instead of the equals statement pointing two references to the same place, two separate values are created. 
+These results indicate that Swift handles arrays as pass-by-value. This is because if it were pass-by-reference. The statement `charListA=charListB`
+ Woud indicate that both charListA and charListB point to the same value and changing the value of `charListB[0]`, would cause the same change to happen in charListA. Because this did occur based on the results, instead of the equals statement pointing two references to the same place, two separate values are created. 
 
 ## Sources:
 
